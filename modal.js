@@ -10,7 +10,7 @@ var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
   modal.style.display = "block";
    setTimeout(function() {
-    survey.reset():
+    modal.style.display = "block";
   }, 5000);
 
 }
