@@ -76,7 +76,7 @@ label {
   margin-bottom: 10px;
 }
 
-.submit {
+#submit {
   background-color: #000C66;
   border-radius: 5px;
   padding: 10px 30px;
@@ -86,7 +86,7 @@ label {
     display: block;
 }
 
-.submit:hover {
+#submit:hover {
   background-color: rgb(0,13,102, 0.70);  
   color: white;
 }
