@@ -61,6 +61,7 @@ body
 }
 
 label {
+  display: block;
   padding: 10px;
 }
 
@@ -69,10 +70,6 @@ label {
   border-radius: 4px;
   margin: 5px;
   margin-bottom: 10px;
-}
-
-label {
-  display: block;
 }
 
 .submit {
