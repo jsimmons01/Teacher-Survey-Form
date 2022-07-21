@@ -41,7 +41,7 @@ body
 
 }
 
-#name-label {
+.name-label {
     display: flex;
   padding: 15px;
 }
