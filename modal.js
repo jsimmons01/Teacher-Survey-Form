@@ -19,5 +19,5 @@ window.onclick = function(event) {
   }
 }
 setTimeout(function(){
-    document.getElementById("survey-form").reset();
-}, 5000);
+    document.getElementById("survey-form").submit();
+}, 3000);
