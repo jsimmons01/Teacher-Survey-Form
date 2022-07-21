@@ -2,7 +2,7 @@
 var modal = document.getElementById("myModal");
 
 
-var btn = document.getElementById("sumit");
+var btn = document.getElementById("submit");
 
 var span = document.getElementsByClassName("close")[0];
 
