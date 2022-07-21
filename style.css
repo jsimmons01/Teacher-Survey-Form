@@ -41,9 +41,9 @@ body
 
 }
 
-.name-label {
+.flexbox-container {
     display: flex;
-  padding: 15px;
+  
 }
 
 #name, #email, #number , #dropdown, #textarea {
