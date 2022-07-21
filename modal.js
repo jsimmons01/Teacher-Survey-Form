@@ -1,6 +1,6 @@
 
 var modal = document.getElementById("myModal");
-
+var survey =  document.getElementById("survey-form");
 
 var btn = document.getElementById("submit");
 
@@ -12,12 +12,12 @@ btn.onclick = function() {
 }
 span.onclick = function() {
   modal.style.display = "none";
+  survey.reset();
 }
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+    survey.reset();
   }
 }
-setTimeout(function(){
-    document.getElementById("survey-form").reset();
-}, 5000);
+
