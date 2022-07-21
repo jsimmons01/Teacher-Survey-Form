@@ -43,7 +43,6 @@ body
 
 .flexbox-container {
     display: flex;  
-    justify-content: space-between;
 }
 #first-name, #last-name {
   margin: 5px 14px;
