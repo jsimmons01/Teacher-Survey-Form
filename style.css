@@ -43,7 +43,7 @@ body
 
 .flexbox-container {
     display: flex;  
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #first-name, #last-name, #email, #number , #dropdown, #textarea {
