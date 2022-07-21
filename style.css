@@ -128,8 +128,9 @@ h2 {
 
 
 .modal-content {
+  text-align: center;
   background-color: #fefefe;
-  margin: 0 auto;
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%; 
