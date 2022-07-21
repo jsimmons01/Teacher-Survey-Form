@@ -18,4 +18,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
+setTimeout(function(){
+    document.getElementById("contact-form").reset();
+}, 5000);
