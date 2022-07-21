@@ -45,7 +45,7 @@ body
     display: flex;  
 }
 
-#name-label, #email, #number , #dropdown, #textarea {
+#firstname, #last-name, #email, #number , #dropdown, #textarea {
   width: 90%;
   margin: 5px 14px;
   padding: 8px 20px;
@@ -137,7 +137,7 @@ h2 {
   width: 80%; 
 }
 
-/* The Close Button */
+
 .close {
   color: #aaa;
   float: right;
