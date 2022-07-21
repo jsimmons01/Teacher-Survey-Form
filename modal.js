@@ -20,4 +20,4 @@ window.onclick = function(event) {
 }
 setTimeout(function(){
     document.getElementById("survey-form").reset();
-}, 3000);
+}, 5000);
