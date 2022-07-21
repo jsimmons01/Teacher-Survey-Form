@@ -45,8 +45,12 @@ body
     display: flex;  
     justify-content: space-around;
 }
+#first-name, #last-name {
+  margin: 5px 14px;
+  padding: 8px 20px;
+}
 
-#first-name, #last-name, #email, #number , #dropdown, #textarea {
+ #email, #number , #dropdown, #textarea {
   width: 90%;
   margin: 5px 14px;
   padding: 8px 20px;
