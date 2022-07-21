@@ -45,7 +45,7 @@ body
     display: flex;  
 }
 
-#firstname, #last-name, #email, #number , #dropdown, #textarea {
+#first-name, #last-name, #email, #number , #dropdown, #textarea {
   width: 90%;
   margin: 5px 14px;
   padding: 8px 20px;
