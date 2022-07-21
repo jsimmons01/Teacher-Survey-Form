@@ -6,10 +6,10 @@ var btn = document.getElementById("submit");
 
 var span = document.getElementsByClassName("close")[0];
 
+
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
 span.onclick = function() {
   modal.style.display = "none";
 }
@@ -18,3 +18,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+btn.submit();
