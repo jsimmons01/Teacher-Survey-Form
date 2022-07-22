@@ -22,7 +22,5 @@ window.onclick = function(event) {
   }
 }
 
-span.addEventListener("click", displayDate);
-
-function resetSurvey() {
-  survey.reset();
+function submitSurvey() {
+  survey.submit();
