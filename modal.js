@@ -13,6 +13,7 @@ btn.onclick = function() {
 
 span.onclick = function() {
   modal.style.display = "none";
+  survey.submit();
 
 }
 
