@@ -24,5 +24,5 @@ window.onclick = function(event) {
 
 span.addEventListener("click", displayDate);
 
-function submitSurvey() {
-  survey.submit();
+function resetSurvey() {
+  survey.reset();
