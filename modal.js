@@ -6,9 +6,7 @@ var btn = document.getElementById("submit");
 
 var span = document.getElementsByClassName("close")[0];
 
-span.addEventListener("click",submitForm)
-function submitForm() {
-  survey.submit();
+
 btn.onclick = function() {
    modal.style.display = "block";
 }
@@ -17,6 +15,10 @@ span.onclick = function() {
   modal.style.display = "none";
 
 }
+
+span.addEventListener("click",submitForm)
+function submitForm() {
+  survey.submit();
 }
 window.onclick = function(event) {
   if (event.target == modal) {
