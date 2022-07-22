@@ -13,8 +13,6 @@ btn.onclick = function() {
 
 span.onclick = function() {
   modal.style.display = "none";
-  survey.submit();
-
 }
 
 window.onclick = function(event) {
@@ -24,3 +22,7 @@ window.onclick = function(event) {
   }
 }
 
+span.addEventListener("click", displayDate);
+
+function submitSurvey() {
+  survey.submit();
