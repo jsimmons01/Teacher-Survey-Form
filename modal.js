@@ -16,10 +16,6 @@ span.onclick = function() {
 
 }
 
-span.addEventListener("click",submitForm)
-function submitForm() {
-  survey.submit();
-}
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
