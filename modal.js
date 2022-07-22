@@ -6,6 +6,8 @@ var btn = document.getElementById("submit");
 
 var span = document.getElementsByClassName("close")[0];
 
+function handleForm(event) { event.preventDefault(); } 
+survey.addEventListener('submit', handleForm);
 
 btn.onclick = function() {
    modal.style.display = "block";
