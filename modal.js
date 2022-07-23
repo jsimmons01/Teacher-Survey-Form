@@ -7,7 +7,7 @@ var btn = document.getElementById("submit");
 var span = document.getElementsByClassName("close")[0];
 
 
-btn.onclick = function() {
+ function() {
    modal.style.display = "block";
 }
 
@@ -22,11 +22,4 @@ window.onclick = function(event) {
   }
 }
 
-function getSurvey(){
-  
-    survey.addEventListener('submit', submitSurvey);    
-}
 
-function submitSurvey(event){
-    event.preventDefault(); 
-}
