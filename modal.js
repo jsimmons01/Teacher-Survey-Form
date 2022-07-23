@@ -7,7 +7,7 @@ var btn = document.getElementById("submit");
 var span = document.getElementsByClassName("close")[0];
 
 
- function() {
+ window.onload = function() {
    modal.style.display = "block";
 }
 
