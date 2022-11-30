@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Teacher Survey Form</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="teacher-survey">
+    <h1 id="title"> Teacher Survey Form</h1>
+
+     <p id ="description"> We want to hear from you. Please fill out this form to help us improve our service.</p>
+
+      <form id="survey-form">
+
+       <div>
+         <label for="number" id="number-label"> Level</label>
+           <input type="number" id="number"  placeholder="Enter your level" min="1" max="10">
+        </div>
+
+        <div>
+          <label for="dropdown"> Choose your teacher</label>
+          <select id="dropdown">
+            <option value=" ">Please select your teacer</option>
+            <option value="Ms.Brown">Ms.Brown</option>
+            <option value="Mr. Green">Mr.Green</option>
+            <option value="Mr.Black">Mr.Black</option>
+            <option value="Ms.Gray">Ms.Gray</option>
+            <option value="Ms.White">Ms.White</option>
+          </select>
+
+        </div>
+
+        <div id="input-radio">
+          <p>Teacher begans class on time.</p>
+
+          <label>
+            <input  type="radio" name="time-management" value="excellent" checked> Excellent</label>
+          <label>
+            <input type="radio" name="time-management" value="satisfactory"> Satisfactory</label>
+          <label>
+            <input type="radio" name="time-management" value="poor"> Poor</label>
+
+        </div>
+        <div id="input-radio">
+          <p>Teacher teaches me in ways that I can learn and understand.</p>
+
+          <label>
+            <input  type="radio" name="can-teach" value="excellent"> Excellent</label>
+          <label>
+            <input type="radio" name="can-teach" value="satisfactory"> Satisfactory</label>
+          <label>
+            <input type="radio" name="can-teach" value="poor"> Poor</label>
+
+        </div>
+        <div id="input-radio">
+          <p>Teacher creates a safe learning classroom where I feel ok to ask quesions when I don't understand.</p>
+
+          <label>
+            <input  type="radio" name="safe" value="excellent"> Excellent</label>
+          <label>
+            <input type="radio" name="safe" value="satisfactory"> Satisfactory</label>
+          <label>
+            <input type="radio" name="safe" value="poor"> Poor</label>
+
+        </div>
+        <div id="input-radio">
+          <p>Teacher knows the subject well.</p>
+
+          <label>
+            <input  type="radio" name="knowledgeable" value="excellent"> Excellent</label>
+          <label>
+            <input type="radio" name="knowledgeable" value="satisfactory"> Satisfactory</label>
+          <label>
+            <input type="radio" name="knowledgeable" value="poor"> Poor</label>
+
+        </div>
+
+        <div>
+          <p> Select suggestions for teacher</p>
+          <label for="explain-vocab"><input type="checkbox" id="explain-vocab" value="explain-vocab" name="improvements"> Explain vocabulary </label>
+
+          <label for="provide-examples"> <input type="checkbox" id="provide-examples" name="improvements" value="provide-examples"> Provide more examples </label>
+
+            <label for="student-talk-time"><input type="checkbox" id="student-talk-time" name="improvements" value=student-talk-time"> Increase student talk time</label>
+
+            <label for="feedback"><input type="checkbox" id="feedback" name="improvements" value="feedback"> Provide timely feedback </label>
+
+        </div>
+
+        <div>
+          <label for="textarea"> Additional Comments </label>
+          <textarea id="textarea" name="additional-comments" rows="4" cols="50" max="950"></textarea>
+        </div>
+
+      <input type="submit" id="submit" value="Submit">
+
+   
+      </form>
+         
+   </section>
+   <footer id="contact"> 
+       <div id="contact-wrap">
+
+         <h2>Contact Us</h2>
+
+           <ul id="contact-list">
+             <li>Telephone: (888) 501-5822 </li>
+             <li> Email: admin@bestschool.edu </li>
+           </ul>
+
+        </div>
+
+     </footer>
+     
+   </body>
+</html>  
+              
