@@ -1,6 +1,7 @@
 const submit = document.getElementById("submit");
 const modal = document.querySelector(".modal");
 const closeModal = document.querySelector(".close");
+const form = document.getElementById("survey-form");
 
 
 submit.addEventListener("click", (e)=> {
@@ -12,5 +13,6 @@ submit.addEventListener("click", (e)=> {
 });
 
 closeModal.addEventListener('click', ()=> {
-    modal.style.display = "none"
+    modal.style.display = 'none';
+    form.reset();
 })
