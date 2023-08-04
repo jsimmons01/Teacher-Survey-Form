@@ -1,10 +1,10 @@
 # Teacher-Survey-Form
 
 ## Description 
-Sample survey for students to give feedback to teachers
+Sample survey for students to give rate their teachers. 
 
 
-## What did I learne
+## What did I learn
 Another way to open modal. I could create a style and toggle the style or change the display style. Will continue making this more proficient. 
 
 ## What I can do in the future
