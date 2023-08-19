@@ -9,6 +9,6 @@ Another way to open modal. I could create a style and toggle the style or change
 
 ## What I can do in the future
 
-I can add some backend features such as the teachers names, even a login for users. I can also add this to my other porject.
+I can add some backend features such as the teacher's names, and even a login for users. I can also add this to my other project.
 
 
